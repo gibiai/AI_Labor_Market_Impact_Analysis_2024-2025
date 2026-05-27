@@ -16,7 +16,7 @@ import os
 np.random.seed(42)
 os.makedirs("output", exist_ok=True)
  
-plt.rcParams["figure.dpi"]       = 100
+plt.rcParams["figure.dpi"] = 100
 plt.rcParams["figure.facecolor"] = "white"
 sns.set_theme(style="whitegrid")
 
@@ -52,7 +52,7 @@ df_model = df[features + [target]].copy()
 # we save the encoder for each column so we can decode later if needed
 
 # identify which columns contain strings (object dtype)
-categorical_cols = df_model.select_dtypes(include="str").columns.tolist()
+categorical_cols = df_model.select_dtypes(include=["object"]).columns.tolist()
 print(f"\nCategorical columns to encode: {categorical_cols}")
  
 encoders = {}   # store one encoder per column
@@ -125,7 +125,7 @@ print(importance_df.to_string(index=False))
 
 fig, graph7 = plt.subplots(figsize=(10, 5))
  
-ax.barh(
+graph7.barh(
     importance_df["feature"],
     importance_df["importance"],
     color="#457B9D",
@@ -163,7 +163,7 @@ graph8.set_xlabel("Actual Salary (USD)")
 graph8.set_ylabel("Predicted Salary (USD)")
 graph8.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${x/1000:.0f}K"))
 graph8.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f"${x/1000:.0f}K"))
-ax.legend()
+graph8.legend()
 plt.tight_layout()
 plt.savefig("output/08_actual_vs_predicted.png", bbox_inches="tight")
 plt.close()
