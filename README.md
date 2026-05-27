@@ -191,4 +191,5 @@ pillow>=10.0
 
 **Gabriele De Carlo** — Data Analyst Portfolio Project, 2025
 Dataset: [Global AI Job Market & Salary Trends 2025](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025) — Kaggle
-!!! note that this is a synthetically generated dataset designed to reflect realistic AI job market patterns. !!!
+
+[!note that this is a synthetically generated dataset designed to reflect realistic AI job market patterns!]
