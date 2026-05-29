@@ -178,3 +178,18 @@ results_summary = pd.DataFrame({
 })
 results_summary.to_csv("output/model_results.csv", index=False)
 print("Results saved to output/")
+
+# save actual vs predicted for Power BI scatter chart
+actual_vs_predicted = pd.DataFrame({
+    "actual_salary":    y_test.values,
+    "predicted_salary": y_pred.round(0),
+    "experience_level": X_test["experience_level"].values,
+})
+
+# decode experience_level back to readable labels
+actual_vs_predicted["experience_level"] = encoders["experience_level"].inverse_transform(
+    actual_vs_predicted["experience_level"].astype(int)
+)
+
+actual_vs_predicted.to_csv("output/actual_vs_predicted.csv", index=False)
+print("Actual vs predicted saved to output/")
