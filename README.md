@@ -191,7 +191,7 @@ pillow>=10.0
 The interactive dashboard allows you to explore these results dynamically:
 
 **Interactive Dashboard:**
-[![Power BI](https://img.shields.io/badge/Power%20BI-View%20Dashboard-yellow?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiZTRlODg4OGQtMWY1ZC00OTUzLThjODgtZjQ2ZTBlZDQzMTI3IiwidCI6IjFmNTRhMThlLTg0MjUtNDdiYi1hMDk3LTczODg2ZTM1MTE4YSIsImMiOjh9)
+[![Power BI](https://img.shields.io/badge/Power%20BI-View%20Dashboard-yellow?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiYmIzZDJlMDUtODk0NS00ZTMxLWE4MWItOWNhNTQzYjJkZTQzIiwidCI6IjFmNTRhMThlLTg0MjUtNDdiYi1hMDk3LTczODg2ZTM1MTE4YSIsImMiOjh9&pageName=913f4d965e67386d88d3)
 <sup>↗️ *Ctrl+click to open in a new tab*</sup>
 
 ---
