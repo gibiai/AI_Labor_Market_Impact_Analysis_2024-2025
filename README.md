@@ -187,6 +187,14 @@ pillow>=10.0
 
 ---
 
+## 📊 Dashboard Power BI
+
+**Interactive Dashboard:**
+[![Power BI](https://img.shields.io/badge/Power%20BI-Visualizzazione%20Dashboard-yellow?logo=powerbi)]([https://app.powerbi.com/view?r=eyJrIjoiNGE3YmRmOTYtNzEwMC00YjFiLWEyNmQtZTI1OGUyM2RjMGRiIiwidCI6IjFmNTRhMThlLTg0MjUtNDdiYi1hMDk3LTczODg2ZTM1MTE4YSIsImMiOjh9&pageName=371c88b3c4db8907703d](https://app.powerbi.com/view?r=eyJrIjoiZTRlODg4OGQtMWY1ZC00OTUzLThjODgtZjQ2ZTBlZDQzMTI3IiwidCI6IjFmNTRhMThlLTg0MjUtNDdiYi1hMDk3LTczODg2ZTM1MTE4YSIsImMiOjh9)) 
+<sup>↗️ *Ctrl+click new tab*</sup>
+
+---
+
 ## Author
 
 **Gabriele De Carlo** — Data Analyst Portfolio Project, 2025
