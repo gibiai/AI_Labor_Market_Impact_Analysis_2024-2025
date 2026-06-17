@@ -122,19 +122,18 @@ The model captures the overall salary trend. The error is meaningful in absolute
 | 7 | Employment type | 3.3% |
 | 8 | Remote ratio | 2.8% |
 
+---
+
 **Key insight:** experience-related factors (years + seniority) together account for ~65% of the model's predictive power. Education, employment type, and remote ratio have surprisingly low impact — in this dataset, **experience drives salary far more than credentials or work mode**.
 
 ---
 
 ## 📊 Power BI Dashboard
+The interactive dashboard allows you to explore these results dynamically:
 
-A three-page interactive dashboard built on the cleaned data.
-
-**Page 1 — Salary Overview:** KPI cards (avg salary $122K, total jobs 15K, executive avg $198.5K, junior avg $66.8K), average salary by country, jobs and salary by experience level.
-
-**Page 2 — Job Market Trends:** remote work share, employment type, company-size premium, salary by work mode, jobs by education and industry.
-
-**Page 3 — ML Insights:** model metrics (R² 0.62, MAE $27K), feature importance, actual-vs-predicted scatter, salary distribution by bracket, and key takeaways.
+**Interactive Dashboard:**
+[![Power BI](https://img.shields.io/badge/Power%20BI-View%20Dashboard-yellow?logo=powerbi)](https://app.powerbi.com/view?r=eyJrIjoiYmIzZDJlMDUtODk0NS00ZTMxLWE4MWItOWNhNTQzYjJkZTQzIiwidCI6IjFmNTRhMThlLTg0MjUtNDdiYi1hMDk3LTczODg2ZTM1MTE4YSIsImMiOjh9&pageName=913f4d965e67386d88d3)
+<sup>↗️ *Ctrl+click to open in a new tab*</sup>
 
 ---
 
@@ -172,6 +171,6 @@ A three-page interactive dashboard built on the cleaned data.
 
 ## 👤 Author
 
-**Gabriele De Carlo** — Data Analyst Portfolio Project
-Dataset: [Global AI Job Market & Salary Trends 2025 (Kaggle)](https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025)
+**Gabriele De Carlo** · Python · SQL · Power BI — Data Analyst Portfolio Project, 2025
+
 
