@@ -16,9 +16,9 @@
 
 ## 📌 Project Overview
 
-An end-to-end analysis of the global AI job market: salary trends, experience levels, remote work, industries, and a machine learning model that predicts salaries from job attributes. The project covers the full analytical pipeline — data cleaning, SQL analysis, visualization, machine learning, and an interactive Power BI dashboard.
+An end-to-end analysis of the global AI job market: salary trends, experience levels, remote work, industries, and a machine learning model that predicts salaries from job attributes. The project covers the full analytical pipeline: data cleaning, SQL analysis, visualization, machine learning, and an interactive Power BI dashboard.
 
-The focus is understanding what drives salaries in the AI job market — which factors matter most — more than producing a precise salary prediction. The codebase is organized as modular Python scripts (not a single notebook), each handling one stage of the pipeline, a structure closer to how analysis is run in production.
+The focus is understanding what drives salaries in the AI job market, which factors matter most more than producing a precise salary prediction. The codebase is organized as modular Python scripts (not a single notebook), each handling one stage of the pipeline, a structure closer to how analysis is run in production.
 
 Key design decisions:
 
